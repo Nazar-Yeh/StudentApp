@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/wood">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/hospital" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/russo_one"
+            android:paddingTop="12dp"
+            android:text="Лікарня"
+            android:textColor="#D35400"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/russo_one"
+            android:paddingBottom="16dp"
+            android:text="Короткі поради для здорової роботи за комп’ютером."
+            android:textColor="#8B4513"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/russo_one"
+            android:paddingBottom="4dp"
+            android:text="Ніндзя-трекінг"
+            android:textColor="#D35400"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/russo_one"
+            android:text="Випити воду"
+            android:textColor="#8B4513" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/russo_one"
+            android:text="Перерва від екрана"
+            android:textColor="#8B4513" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/russo_one"
+            android:text="Вправи для очей"
+            android:textColor="#8B4513" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/russo_one"
+            android:text="Розминка"
+            android:textColor="#8B4513" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/russo_one"
+            android:text="Основи"
+            android:textColor="#D35400"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/russo_one"
+            android:paddingBottom="12dp"
+            android:text="- 50–70 см до монітора\n- Рівна спина\n- Монітор на рівні очей"
+            android:textColor="#8B4513"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/russo_one"
+            android:text="Гігієна очей"
+            android:textColor="#D35400"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/russo_one"
+            android:paddingBottom="12dp"
+            android:text="- Правило 20-20-20\n- Частіше кліпай\n- Менша яскравість увечері"
+            android:textColor="#8B4513"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/russo_one"
+            android:text="Перерви"
+            android:textColor="#D35400"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/russo_one"
+            android:paddingBottom="12dp"
+            android:text="- 5 хв кожні 45 хв\n- Ходьба\n- Перерва без телефону"
+            android:textColor="#8B4513"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/russo_one"
+            android:text="Розминка"
+            android:textColor="#D35400"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/russo_one"
+            android:text="- Нахили голови\n- Плечі по колу\n- Легка зарядка"
+            android:textColor="#8B4513"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="#549254"
+            android:text="ГОЛОВНИЙ ЕКРАН" />
+
+    </LinearLayout>
+
+</ScrollView>

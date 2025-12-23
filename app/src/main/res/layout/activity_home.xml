@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/wood"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginBottom="8dp"
+            android:background="#549254"
+            android:src="@drawable/hnure" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/russo_one"
+            android:text="ХНУРЕ – університет, що скритий у знаннях"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/russo_one"
+            android:justificationMode="inter_word"
+            android:lineSpacingExtra="4dp"
+            android:text="Вітаю! Ви потрапили в університет скритий у знаннях — тут наших ніндзя-студентів навчають новим технікам та ніндзютсу. Цей застосунок створено, щоб допомагати вам у цьому!"
+            android:textAlignment="textStart"
+            android:textColor="#0F0E0E"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/choose_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/russo_one"
+            android:text="Обери свій путь ніндзя-студента"
+            android:textAlignment="center"
+            android:textColor="#0F0E0E"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_id_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#549254"
+            android:text="Посвідчення ніндзя"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn_missions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#549254"
+            android:text="Місії"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn_health"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#549254"
+            android:text="Лікарня"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn_id_card2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#549254"
+            android:text="ВИХІД"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+</LinearLayout>
